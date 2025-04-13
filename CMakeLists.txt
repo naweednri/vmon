@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 4.00)
+project(vmon)
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(vmon main.cpp)
